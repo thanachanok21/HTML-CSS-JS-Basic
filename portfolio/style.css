@@ -32,7 +32,6 @@ header {
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  /* ตรวจ padding ใหม่ ว่าทำถูกไหม ทำไมค่าเดิม ตัว Text หายไป */
   padding: 22px 15%;
   border-bottom: 1px solid transparent;
   transition: all 0.45s ease;
@@ -43,7 +42,6 @@ header {
   font-weight: 700;
   letter-spacing: 1px;
 }
-/* ทำไมไม่เปลี่ยนสี  span เป็น Tag ไม่ใช่ class ไม่ต้องใส่ . (.span)*/
 span {
   color: var(--main-color);
 }
